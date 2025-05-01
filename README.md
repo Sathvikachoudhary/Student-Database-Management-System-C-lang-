@@ -17,13 +17,13 @@ This project is a Student Database Management System written in the C language. 
 - 📂 Persistent ID generation using a binary file
 
 ## 📂FILE STRUCTURE:                                   
-•	main.c -> Main menu-driven program logic 
-•	student.c -> Functions: add, delete, find, edit, reverse, etc.
-•	savefile.c -> File save/load operations using text & binary files
-•	student.h -> Struct definition & function declarations
-•	data.txt -> Text file for saving student records
-•	alpha_counts.data -> Binary file for persistent ID generation count
-•	makefile -> Automates compilation of all files       
+-	main.c -> Main menu-driven program logic 
+-	student.c -> Functions: add, delete, find, edit, reverse, etc.
+-	savefile.c -> File save/load operations using text & binary files
+-	student.h -> Struct definition & function declarations
+-	data.txt -> Text file for saving student records
+-	alpha_counts.data -> Binary file for persistent ID generation count
+-	makefile -> Automates compilation of all files       
  
 ## ⚙️ HOW TO COMPILE AND RUN:-
 
@@ -31,17 +31,17 @@ This project is a Student Database Management System written in the C language. 
 
 Make sure the following `makefile` is in the same folder:
 
-•	a.out: main.o student.o savefile.o 
+-	a.out: main.o student.o savefile.o 
 cc -g main.o student.o savefile.o
-•	main.o: main.c
+-	main.o: main.c
  cc -c main.c
-•	student.o: student.c 
+-	student.o: student.c 
 cc -c student.c
-•	savefile.o: savefile.c
+-	savefile.o: savefile.c
  cc -c savefile.c
 
-To compile the program:  make
-To run the program: ./a.out
+-To compile the program:  make
+-To run the program: ./a.out
 
 ### ✅ METHOD 2: Manual Compilation (Alternative):-
 
