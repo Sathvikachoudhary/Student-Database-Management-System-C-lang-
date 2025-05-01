@@ -18,7 +18,7 @@ This project is a Student Database Management System written in the C language. 
 - 📂 Persistent ID generation using a binary file
 
 📂FILE STRUCTURE:                                   
-main.c ->	Main menu-driven program logic                        
+main.c ->	Main menu-driven program logic 
  student.c ->	Functions: add, delete, find, edit, reverse, etc.     
  savefile.c	-> File save/load operations using text & binary files   
  student.h	-> Struct definition & function declarations             
@@ -37,6 +37,7 @@ cc -g main.o student.o savefile.o
 main.o: main.c cc -c main.c
 student.o: student.c cc -c student.c
 savefile.o: savefile.c cc -c savefile.c
+
 To compile the program:  make
 To run the program: ./a.out
 
