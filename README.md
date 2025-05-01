@@ -32,13 +32,13 @@ This project is a Student Database Management System written in the C language. 
 Make sure the following `makefile` is in the same folder:
 
 -	a.out: main.o student.o savefile.o 
--cc -g main.o student.o savefile.o
+cc -g main.o student.o savefile.o
 -	main.o: main.c
- -cc -c main.c
+  cc -c main.c
 -	student.o: student.c 
--cc -c student.c
+cc -c student.c
 -	savefile.o: savefile.c
- -cc -c savefile.c
+  cc -c savefile.c
 
 -To compile the program:  make
 -To run the program: ./a.out
@@ -46,7 +46,7 @@ Make sure the following `makefile` is in the same folder:
 ### ✅ METHOD 2: Manual Compilation (Alternative):-
 
 -	gcc main.c student.c savefile.c -o student_db
--./student_db
+./student_db
 
 ## 🖥️ MENU OPTIONS:-
 1.	a/A: Add a new student
@@ -58,13 +58,5 @@ Make sure the following `makefile` is in the same folder:
 7.	r/R: Reverse display 
 8.	q/Q: Quit the program
 
-
-## 🆔 STUDENT ID FORMAT:-
-V24HE5XN
-Where:
--	X is the first letter of the student’s name (in uppercase)
--	N is the number of students added with the same starting letter
-🔄 Example:
--	V24HE5S1 = First student whose name starts with 'S'
--	V24HE5A2 = Second student with name starting with 'A'
+# Happy Coding.....!
 
