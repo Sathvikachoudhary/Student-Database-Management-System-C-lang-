@@ -40,8 +40,8 @@ cc -c student.c
 -	`savefile.o`: savefile.c
   cc -c savefile.c
 
--To compile the program:  `make`
--To run the program: `./a.out`
+- To compile the program:  `make`
+- To run the program: `./a.out`
 
 ### ✅ METHOD 2: Manual Compilation (Alternative):-
 
